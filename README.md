@@ -31,7 +31,7 @@
 *	Android Tutorial 第六堂
 	*	[（1） Material Design - Theme與Transition]()
 	*	[（2） Material Design - RecylerView]()
-	*	[（3） Material Design - Shared Element與自定動畫效果]()
+	*	[（3） Material Design – Shared Element 與 Floating Action Button]()
 
 ===============
 http://www.codedata.com.tw/author/michael
