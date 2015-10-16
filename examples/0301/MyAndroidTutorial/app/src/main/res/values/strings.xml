@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MAT</string>
+
+    <string name="title">標題</string>
+    <string name="enter_title">輸入標題</string>
+    <string name="content">內容</string>
+    <string name="enter_content">輸入內容</string>
+    <string name="about">這是Android Tutorial應用程式</string>
+    <string name="version">版本：AndroidTutorial_0.2.4</string>
+    <string name="delete">刪除</string>
+    <string name="delete_item">確定要刪除 %1$d 個項目？</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.macdidi.myandroidtutorial" >
+
+    <!-- 需要攝錄鏡頭設備 -->
+    <uses-feature android:name="android.hardware.camera" />
+    <!-- 寫入外部儲存設備 -->
+    <uses-permission android:name=
+        "android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 使用錄音設備 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 關於應用程式的資訊 -->
+        <!-- 因為使用對話框的樣式，所以不用設定標題 -->
+        <activity
+            android:name=".AboutActivity"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <!-- 記事項目元件 -->
+        <activity android:name=".ItemActivity" >
+            <intent-filter>
+
+                <!-- 新增用的名稱 -->
+                <action android:name="net.macdidi.myandroidtutorial.ADD_ITEM" />
+                <!-- 修改用的名稱 -->
+                <action android:name="net.macdidi.myandroidtutorial.EDIT_ITEM" />
+                <!-- 一定要加入，內容固定不變 -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 選擇顏色 -->
+        <activity
+            android:name=".ColorActivity"
+            android:theme="@android:style/Theme.Dialog">
+            <!-- 加入設定元件啟動用的Action名稱 -->
+            <intent-filter>
+                <action android:name="net.macdidi.myandroidtutorial.CHOOSE_COLOR"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 設定元件 -->
+        <activity
+            android:name=".PrefActivity" />
+
+        <!-- 錄音元件 -->
+        <activity
+            android:name=".RecordActivity"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="@string/title_record"/>
+
+        <!-- 播放元件 -->
+        <activity
+            android:name=".PlayActivity"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="@string/title_play"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 把 android:Theme.Material.Light 改為 Theme.AppCompat.Light.DarkActionBar -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimary">#999999</item>
+        <item name="android:navigationBarColor">#777777</item>
+
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="android:windowEnterTransition">@transition/explode_transition</item>
+        <item name="android:windowExitTransition">@transition/explode_transition</item>
+    </style>
+</resources>

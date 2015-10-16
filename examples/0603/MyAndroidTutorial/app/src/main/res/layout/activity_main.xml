@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- 加入 RelativeLayout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/item_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:background="@drawable/rectangle_drawable"
+            android:dividerHeight="1sp"
+            android:scrollbars="vertical" />
+
+        <!-- 新增 FloatingActionButton 元件-->
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_add_white_48dp"
+            android:onClick="clickAdd"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/show_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@drawable/rectangle_drawable"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="aboutApp"
+        android:padding="@dimen/default_padding"
+        android:text="@string/app_name" />
+
+</LinearLayout>
