@@ -7,6 +7,7 @@
 這個Android APP會在六小時的課程內容，帶領你認識大部份Android  APP開發時會遇到的主題，從APP的規劃開始，畫面、互動、資料庫、多媒體、檔案、服務、通知、位置、地圖還有小工具，這些就是你會學到的東西。
 
 *	Android Tutorial 第一堂)
+	*	[（1）西遊記裡的那隻潑猴]()
 	*	[（2）準備Android Studio開發環境]()
 	*	[（3）開始設計Android應用程式]()
 	*	[（4）開發Android應用程式的準備工作]()
@@ -24,13 +25,13 @@
 	*	[（2）設計地圖應用程式 - Google Maps Android API v2]()
 	*	[（3）讀取裝置目前的位置 - Google Services Location]()
 *	Android Tutorial 第五堂
-	*	[(1) 建立廣播接收元件 - BroadcastReceiver]()
-	*	[(2) 系統通知服務 - Notification]()
-	*	[(3) 設計小工具元件 - AppWidget]()
+	*	[（1） 建立廣播接收元件 - BroadcastReceiver]()
+	*	[（2） 系統通知服務 - Notification]()
+	*	[（3） 設計小工具元件 - AppWidget]()
 *	Android Tutorial 第六堂
-	*	[(1) Material Design - Theme與Transition]()
-	*	[(2) Material Design - RecylerView]()
-	*	[(3) Material Design - Shared Element與自定動畫效果]()
+	*	[（1） Material Design - Theme與Transition]()
+	*	[（2） Material Design - RecylerView]()
+	*	[（3） Material Design - Shared Element與自定動畫效果]()
 
 ===============
 http://www.codedata.com.tw/author/michael
