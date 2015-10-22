@@ -22,32 +22,34 @@ Android 6 Tutorial是為了可以快速學習與認識Android應用程式開發�
 
 ## 內容
 
-*	Android Tutorial 第一堂)
-	*	[（1）西遊記裡的那隻潑猴]()
-	*	[（2）準備Android Studio開發環境]()
-	*	[（3）開始設計Android應用程式]()
-	*	[（4）開發Android應用程式的準備工作]()
+Android Tutorial系列有六堂課、二十章：
+
+*	Android Tutorial 第一堂
+	*	（1）西遊記裡的那隻潑猴
+	*	（2）準備Android Studio開發環境
+	*	（3）開始設計Android應用程式
+	*	（4）開發Android應用程式的準備工作
 *	Android Tutorial 第二堂
-	*	[（1）建立應用程式需要的資源]()
-	*	[（2）設計應用程式使用者介面]()
-	*	[（3）應用程式與使用者的互動]()
-	*	[（4）建立與使用Activity元件]()
+	*	（1）建立應用程式需要的資源
+	*	（2）設計應用程式使用者介面
+	*	（3）應用程式與使用者的互動
+	*	（4）建立與使用Activity元件
 *	Android Tutorial 第三堂
-	*	[（1）為ListView元件建立自定畫面]()
-	*	[（2）儲存與讀取應用程式資訊]()
-	*	[（3）使用Android內建的SQLite資料庫]()
+	*	（1）為ListView元件建立自定畫面
+	*	（2）儲存與讀取應用程式資訊
+	*	（3）使用Android內建的SQLite資料庫
 *	Android Tutorial 第四堂
-	*	[（1）使用照相機與麥克風]()
-	*	[（2）設計地圖應用程式 - Google Maps Android API v2]()
-	*	[（3）讀取裝置目前的位置 - Google Services Location]()
+	*	（1）使用照相機與麥克風
+	*	（2）設計地圖應用程式 - Google Maps Android API v2
+	*	（3）讀取裝置目前的位置 - Google Services Location
 *	Android Tutorial 第五堂
-	*	[（1） 建立廣播接收元件 - BroadcastReceiver]()
-	*	[（2） 系統通知服務 - Notification]()
-	*	[（3） 設計小工具元件 - AppWidget]()
+	*	(1) 建立廣播接收元件 - BroadcastReceiver
+	*	(2) 系統通知服務 - Notification
+	*	(3) 設計小工具元件 - AppWidget
 *	Android Tutorial 第六堂
-	*	[（1） Material Design - Theme與Transition]()
-	*	[（2） Material Design - RecylerView]()
-	*	[（3） Material Design – Shared Element 與 Floating Action Button]()
+	*	(1) Material Design - Theme與Transition
+	*	(2) Material Design - RecylerView
+	*	(3) Material Design - Shared Element 與 Floating Action Button
 
 ===============
 http://www.codedata.com.tw/author/michael
