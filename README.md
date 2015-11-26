@@ -25,13 +25,13 @@ Android 6 Tutorial是為了可以快速學習與認識Android應用程式開發�
 Android Tutorial系列有六堂課、二十章：
 
 *	Android Tutorial 第一堂
-	*	[http://www.codedata.com.tw/mobile/android-6-tutorial-1-1/](（1）西遊記裡的那隻潑猴)
-	*	（2）準備Android Studio開發環境
-	*	（3）開始設計Android應用程式
-	*	（4）開發Android應用程式的準備工作
+	*	[（1）西遊記裡的那隻潑猴](http://www.codedata.com.tw/mobile/android-6-tutorial-1-1/)
+	*	[（2）準備Android Studio開發環境](http://www.codedata.com.tw/mobile/android-6-tutorial-1-2/)
+	*	[（3）開始設計Android應用程式](http://www.codedata.com.tw/mobile/android-6-tutorial-1-3/)
+	*	[（4）開發Android應用程式的準備工作](http://www.codedata.com.tw/mobile/android-6-tutorial-1-4/)
 *	Android Tutorial 第二堂
-	*	（1）建立應用程式需要的資源
-	*	（2）設計應用程式使用者介面
+	*	[（1）建立應用程式需要的資源](http://www.codedata.com.tw/mobile/android-6-tutorial-2-1/)
+	*	[（2）設計應用程式使用者介面](http://www.codedata.com.tw/mobile/android-6-tutorial-2-2/)
 	*	（3）應用程式與使用者的互動
 	*	（4）建立與使用Activity元件
 *	Android Tutorial 第三堂
