@@ -323,7 +323,7 @@ public class ItemActivity extends AppCompatActivity {
     // 讀取與處理寫入外部儲存設備授權請求
     private void requestStoragePermission() {
         // 如果裝置版本是6.0（包含）以上
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+        if (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.M) {
             // 取得授權狀態，參數是請求授權的名稱
             int hasPermission = checkSelfPermission(
                     Manifest.permission.WRITE_EXTERNAL_STORAGE);
@@ -336,12 +336,14 @@ public class ItemActivity extends AppCompatActivity {
                 requestPermissions(
                         new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
                         REQUEST_WRITE_EXTERNAL_STORAGE_PERMISSION);
-            }
-            else {
-                // 拍攝照片
-                takePicture();
+                return;
             }
         }
+        
+        // 如果裝置版本是6.0以下，
+        // 或是裝置版本是6.0（包含）以上，使用者已經授權，
+        // 拍攝照片
+        takePicture();
     }
 
     // 讀取與處理錄音設備授權請求
@@ -360,14 +362,16 @@ public class ItemActivity extends AppCompatActivity {
                 requestPermissions(
                         new String[]{Manifest.permission.RECORD_AUDIO},
                         REQUEST_RECORD_AUDIO_PERMISSION);
-            }
-            else {
-                // 錄音或播放
-                processRecord();
+                return;
             }
         }
-    }
 
+        // 如果裝置版本是6.0以下，
+        // 或是裝置版本是6.0（包含）以上，使用者已經授權，        
+        // 錄音或播放
+        processRecord();
+    }
+    
     // 讀取與處理定位設備授權請求
     private void requestLocationPermission() {
         // 如果裝置版本是6.0（包含）以上
@@ -384,12 +388,14 @@ public class ItemActivity extends AppCompatActivity {
                 requestPermissions(
                         new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
                         REQUEST_FINE_LOCATION_PERMISSION);
-            }
-            else {
-                // 啟動地圖與定位元件
-                processLocation();
+                return;
             }
         }
+
+        // 如果裝置版本是6.0以下，
+        // 或是裝置版本是6.0（包含）以上，使用者已經授權，        
+        // 啟動地圖與定位元件
+        processLocation();
     }
 
     // 覆寫請求授權後執行的方法
