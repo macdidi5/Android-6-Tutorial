@@ -37,10 +37,10 @@ Android Tutorial系列有六堂課、二十章：
 *	Android Tutorial 第三堂
 	*	[（1）為ListView元件建立自定畫面](http://www.codedata.com.tw/mobile/android-6-tutorial-3-1/)
 	*	[（2）儲存與讀取應用程式資訊](http://www.codedata.com.tw/mobile/android-6-tutorial-3-2/)
-	*	（3）使用Android內建的SQLite資料庫
+	*	[（3）使用Android內建的SQLite資料庫](http://www.codedata.com.tw/mobile/android-6-tutorial-3-3/)
 *	Android Tutorial 第四堂
-	*	（1）使用照相機與麥克風
-	*	（2）設計地圖應用程式 - Google Maps Android API v2
+	*	[（1）使用照相機與麥克風](http://www.codedata.com.tw/mobile/android-6-tutorial-4-1/)
+	*	[（2）設計地圖應用程式 - Google Maps Android API v2](http://www.codedata.com.tw/mobile/android-6-tutorial-4-2/)
 	*	（3）讀取裝置目前的位置 - Google Services Location
 *	Android Tutorial 第五堂
 	*	(1) 建立廣播接收元件 - BroadcastReceiver
