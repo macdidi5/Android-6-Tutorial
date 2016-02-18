@@ -41,10 +41,10 @@ Android Tutorial系列有六堂課、二十章：
 *	Android Tutorial 第四堂
 	*	[（1）使用照相機與麥克風](http://www.codedata.com.tw/mobile/android-6-tutorial-4-1/)
 	*	[（2）設計地圖應用程式 - Google Maps Android API v2](http://www.codedata.com.tw/mobile/android-6-tutorial-4-2/)
-	*	（3）讀取裝置目前的位置 - Google Services Location
+	*	[（3）讀取裝置目前的位置 - Google Services Location](http://www.codedata.com.tw/mobile/android-6-tutorial-4-3/)
 *	Android Tutorial 第五堂
-	*	(1) 建立廣播接收元件 - BroadcastReceiver
-	*	(2) 系統通知服務 - Notification
+	*	[(1) 建立廣播接收元件 - BroadcastReceiver](http://www.codedata.com.tw/mobile/android-6-tutorial-5-1/)
+	*	[(2) 系統通知服務 - Notification](http://www.codedata.com.tw/mobile/android-6-tutorial-5-2/)
 	*	(3) 設計小工具元件 - AppWidget
 *	Android Tutorial 第六堂
 	*	(1) Material Design - Theme與Transition
