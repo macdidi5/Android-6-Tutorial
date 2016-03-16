@@ -45,11 +45,11 @@ Android Tutorial系列有六堂課、二十章：
 *	Android Tutorial 第五堂
 	*	[(1) 建立廣播接收元件 - BroadcastReceiver](http://www.codedata.com.tw/mobile/android-6-tutorial-5-1/)
 	*	[(2) 系統通知服務 - Notification](http://www.codedata.com.tw/mobile/android-6-tutorial-5-2/)
-	*	(3) 設計小工具元件 - AppWidget
+	*	[(3) 設計小工具元件 - AppWidget](http://www.codedata.com.tw/mobile/android-6-tutorial-5-3/)
 *	Android Tutorial 第六堂
-	*	(1) Material Design - Theme與Transition
-	*	(2) Material Design - RecylerView
-	*	(3) Material Design - Shared Element 與 Floating Action Button
+	*	[(1) Material Design - Theme與Transition](http://www.codedata.com.tw/mobile/android-6-tutorial-6-1/)
+	*	[(2) Material Design - RecylerView](http://www.codedata.com.tw/mobile/android-6-tutorial-6-2/)
+	*	[(3) Material Design - Shared Element 與 Floating Action Button](http://www.codedata.com.tw/mobile/android-6-tutorial-6-3/)
 
 ===============
 http://www.codedata.com.tw/author/michael
